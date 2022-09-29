@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         }
     private fun setupHyperlink() {
-        val linkTextView = findViewById<TextView>(R.id.web)
-        linkTextView.movementMethod = LinkMovementMethod.getInstance()
-        linkTextView.setLinkTextColor(Color.BLUE)
+        val link = findViewById<TextView>(R.id.web)
+        link.movementMethod = LinkMovementMethod.getInstance()
+        link.setLinkTextColor(Color.BLUE)
     }
     }

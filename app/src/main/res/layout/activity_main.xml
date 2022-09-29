@@ -11,8 +11,10 @@
         android:id="@+id/web"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:padding="5dp"
         android:text="@string/linkText"
-        android:textSize="18sp" />
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
 </LinearLayout>
